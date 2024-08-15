@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f6d0d0;
+}
+
+.timer-container {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color:white;
+}
+
+#timer {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startButton {
+    background-color: #28a745;
+    color: white;
+}
+
+#stopButtonn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#resetButtonn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.buttons button:active {
+    transform: scale(0.98);
+}

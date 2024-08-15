@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+#slideshow-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+}
+
+.controls, .input-area {
+    margin: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prevBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+#playPauseBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#nextBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+#addImageBtn {
+    background-color: #ffc107;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.98);
+}
